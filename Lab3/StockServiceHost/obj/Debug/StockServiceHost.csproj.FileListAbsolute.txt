@@ -1,0 +1,13 @@
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\obj\Debug\StockServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\bin\Debug\StockServiceHost.exe.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\bin\Debug\StockServiceHost.exe
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\bin\Debug\StockServiceHost.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\bin\Debug\SharedLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\bin\Debug\StockServiceLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\bin\Debug\SharedLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\bin\Debug\StockServiceLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\bin\Debug\StockServiceLib.dll.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\obj\Debug\StockServiceHost.csprojAssemblyReference.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\obj\Debug\StockServiceHost.csproj.CopyComplete
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\obj\Debug\StockServiceHost.exe
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceHost\obj\Debug\StockServiceHost.pdb

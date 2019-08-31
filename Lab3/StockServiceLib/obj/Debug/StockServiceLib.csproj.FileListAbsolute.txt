@@ -1,0 +1,10 @@
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\obj\Debug\StockServiceLib.csprojAssemblyReference.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\obj\Debug\StockServiceLib.csproj.CoreCompileInputs.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\bin\Debug\StockServiceLib.dll.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\bin\Debug\StockServiceLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\bin\Debug\StockServiceLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\bin\Debug\SharedLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\bin\Debug\SharedLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\obj\Debug\StockServiceLib.csproj.CopyComplete
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\obj\Debug\StockServiceLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab3\StockServiceLib\obj\Debug\StockServiceLib.pdb

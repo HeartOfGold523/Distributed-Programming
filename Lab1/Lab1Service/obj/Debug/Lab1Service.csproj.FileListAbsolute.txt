@@ -1,0 +1,7 @@
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab1\Lab1Service\bin\Lab1Service.dll.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab1\Lab1Service\bin\Lab1Service.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab1\Lab1Service\bin\Lab1Service.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab1\Lab1Service\obj\Debug\Lab1Service.csprojAssemblyReference.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab1\Lab1Service\obj\Debug\Lab1Service.csproj.CoreCompileInputs.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab1\Lab1Service\obj\Debug\Lab1Service.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab1\Lab1Service\obj\Debug\Lab1Service.pdb

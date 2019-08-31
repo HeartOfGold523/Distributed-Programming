@@ -1,0 +1,13 @@
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\bin\Debug\MathServiceHost.exe.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\bin\Debug\MathServiceHost.exe
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\bin\Debug\MathServiceHost.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\bin\Debug\MathServiceLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\bin\Debug\SharedLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\bin\Debug\MathServiceLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\bin\Debug\MathServiceLib.dll.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\bin\Debug\SharedLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\obj\Debug\MathServiceHost.csprojAssemblyReference.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\obj\Debug\MathServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\obj\Debug\MathServiceHost.csproj.CopyComplete
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\obj\Debug\MathServiceHost.exe
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceHost\obj\Debug\MathServiceHost.pdb

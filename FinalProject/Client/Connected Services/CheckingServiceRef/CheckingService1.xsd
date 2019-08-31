@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:64807/CheckingService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Checking" />
+  <xs:element name="AddDebit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Checking" minOccurs="0" name="debit" nillable="true" type="q1:Debit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddDebitResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddCredit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Checking" minOccurs="0" name="credit" nillable="true" type="q2:Credit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddCreditResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllTransactions">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllTransactionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Checking" minOccurs="0" name="GetAllTransactionsResult" nillable="true" type="q3:TransactionList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTransactionsByDateRange">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="start" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="end" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTransactionsByDateRangeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Checking" minOccurs="0" name="GetTransactionsByDateRangeResult" nillable="true" type="q4:TransactionList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCreditsByType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Checking" minOccurs="0" name="creditType" type="q5:CreditTypeEnum" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCreditsByTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Checking" minOccurs="0" name="GetCreditsByTypeResult" nillable="true" type="q6:TransactionList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDebitsByType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Checking" minOccurs="0" name="debitType" type="q7:DebitTypeEnum" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDebitsByTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Checking" minOccurs="0" name="GetDebitsByTypeResult" nillable="true" type="q8:TransactionList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

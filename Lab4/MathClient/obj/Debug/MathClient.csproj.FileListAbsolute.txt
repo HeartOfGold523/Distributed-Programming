@@ -1,0 +1,12 @@
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\bin\Debug\MathClient.exe.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\bin\Debug\MathClient.exe
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\bin\Debug\MathClient.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\bin\Debug\SharedLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\bin\Debug\Utilities.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\bin\Debug\SharedLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\bin\Debug\Utilities.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\obj\Debug\MathClient.csprojAssemblyReference.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\obj\Debug\MathClient.csproj.CoreCompileInputs.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\obj\Debug\MathClient.csproj.CopyComplete
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\obj\Debug\MathClient.exe
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathClient\obj\Debug\MathClient.pdb

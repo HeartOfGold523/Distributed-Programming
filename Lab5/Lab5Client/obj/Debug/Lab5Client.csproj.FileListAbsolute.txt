@@ -1,0 +1,7 @@
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab5\Lab5Client\bin\Debug\Lab5Client.exe.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab5\Lab5Client\bin\Debug\Lab5Client.exe
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab5\Lab5Client\bin\Debug\Lab5Client.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab5\Lab5Client\obj\Debug\Lab5Client.csprojAssemblyReference.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab5\Lab5Client\obj\Debug\Lab5Client.csproj.CoreCompileInputs.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab5\Lab5Client\obj\Debug\Lab5Client.exe
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab5\Lab5Client\obj\Debug\Lab5Client.pdb

@@ -1,0 +1,10 @@
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\bin\Debug\MathServiceLib.dll.config
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\bin\Debug\MathServiceLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\bin\Debug\MathServiceLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\bin\Debug\SharedLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\bin\Debug\SharedLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\obj\Debug\MathServiceLib.csprojAssemblyReference.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\obj\Debug\MathServiceLib.csproj.CoreCompileInputs.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\obj\Debug\MathServiceLib.csproj.CopyComplete
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\obj\Debug\MathServiceLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\MathServiceLib\obj\Debug\MathServiceLib.pdb

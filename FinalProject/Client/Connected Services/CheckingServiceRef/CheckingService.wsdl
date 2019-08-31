@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CheckingService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:64807/CheckingService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:64807/CheckingService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:64807/CheckingService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Checking" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICheckingService_AddDebit_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddDebit" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_AddDebit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddDebitResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_AddCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddCredit" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_AddCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_GetAllTransactions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTransactions" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_GetAllTransactions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTransactionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_GetTransactionsByDateRange_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTransactionsByDateRange" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_GetTransactionsByDateRange_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTransactionsByDateRangeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_GetCreditsByType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditsByType" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_GetCreditsByType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditsByTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_GetDebitsByType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDebitsByType" />
+  </wsdl:message>
+  <wsdl:message name="ICheckingService_GetDebitsByType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDebitsByTypeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICheckingService">
+    <wsdl:operation name="AddDebit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICheckingService/AddDebit" message="tns:ICheckingService_AddDebit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICheckingService/AddDebitResponse" message="tns:ICheckingService_AddDebit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddCredit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICheckingService/AddCredit" message="tns:ICheckingService_AddCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICheckingService/AddCreditResponse" message="tns:ICheckingService_AddCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTransactions">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICheckingService/GetAllTransactions" message="tns:ICheckingService_GetAllTransactions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICheckingService/GetAllTransactionsResponse" message="tns:ICheckingService_GetAllTransactions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTransactionsByDateRange">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICheckingService/GetTransactionsByDateRange" message="tns:ICheckingService_GetTransactionsByDateRange_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICheckingService/GetTransactionsByDateRangeResponse" message="tns:ICheckingService_GetTransactionsByDateRange_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditsByType">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICheckingService/GetCreditsByType" message="tns:ICheckingService_GetCreditsByType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICheckingService/GetCreditsByTypeResponse" message="tns:ICheckingService_GetCreditsByType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDebitsByType">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICheckingService/GetDebitsByType" message="tns:ICheckingService_GetDebitsByType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICheckingService/GetDebitsByTypeResponse" message="tns:ICheckingService_GetDebitsByType_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICheckingService" type="tns:ICheckingService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddDebit">
+      <soap:operation soapAction="http://tempuri.org/ICheckingService/AddDebit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddCredit">
+      <soap:operation soapAction="http://tempuri.org/ICheckingService/AddCredit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTransactions">
+      <soap:operation soapAction="http://tempuri.org/ICheckingService/GetAllTransactions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTransactionsByDateRange">
+      <soap:operation soapAction="http://tempuri.org/ICheckingService/GetTransactionsByDateRange" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditsByType">
+      <soap:operation soapAction="http://tempuri.org/ICheckingService/GetCreditsByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDebitsByType">
+      <soap:operation soapAction="http://tempuri.org/ICheckingService/GetDebitsByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CheckingService">
+    <wsdl:port name="BasicHttpBinding_ICheckingService" binding="tns:BasicHttpBinding_ICheckingService">
+      <soap:address location="http://localhost:64807/CheckingService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

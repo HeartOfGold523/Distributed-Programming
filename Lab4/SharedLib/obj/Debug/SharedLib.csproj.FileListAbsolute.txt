@@ -1,0 +1,6 @@
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\SharedLib\bin\Debug\SharedLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\SharedLib\bin\Debug\SharedLib.pdb
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\SharedLib\obj\Debug\SharedLib.csprojAssemblyReference.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\SharedLib\obj\Debug\SharedLib.csproj.CoreCompileInputs.cache
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\SharedLib\obj\Debug\SharedLib.dll
+C:\Users\ashco\Documents\UCSD Extension\Distributed Programming\Lab4\SharedLib\obj\Debug\SharedLib.pdb
